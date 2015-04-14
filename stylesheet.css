@@ -9,8 +9,6 @@ body {
 	position: fixed;
 	top: 0%;
 	width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD:stylesheet.css
 	min-width: 55em;
 	background-color: #2C2C2C;
 	border-radius: 7px;
@@ -22,17 +20,6 @@ body {
 	line-height: 80%; 
 	color: #F0F0F0;
 	text-align: center;
-=======
-=======
->>>>>>> origin/gh-pages
-	color: #F0F0F0;
-	background-color: #2C2C2C;
-	border-radius: 7px;
-	z-index: 1;
-<<<<<<< HEAD
->>>>>>> origin/gh-pages:Stylesheet.css
-=======
->>>>>>> origin/gh-pages
 }
 
 #header-text h1 {
@@ -59,18 +46,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	padding-left: 1em;
 	padding-right: 1em;
-<<<<<<< HEAD
-<<<<<<< HEAD:stylesheet.css
 	padding-top: .33em;
 	margin: 132px auto 0px;
-=======
-	padding-top: .5em;
-	margin: 113px auto 0px;
->>>>>>> origin/gh-pages:Stylesheet.css
-=======
-	padding-top: .5em;
-	margin: 113px auto 0px;
->>>>>>> origin/gh-pages
 	background-color: #F0F0F0;
 	border-radius: 7px;
 }
@@ -93,13 +70,7 @@ body {
 
 /* Looking up image */
 #floor img {
-<<<<<<< HEAD
-<<<<<<< HEAD:stylesheet.css
 	width: 100%;
-=======
->>>>>>> origin/gh-pages:Stylesheet.css
-=======
->>>>>>> origin/gh-pages
 	border: 2px;
 	border-style: solid;
 	border-color: #474747;
