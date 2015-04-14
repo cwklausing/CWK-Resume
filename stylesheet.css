@@ -3,36 +3,54 @@ body {
 	background-color: #B6C3CF;
 }
 
+/* Header styling */
 #header {
 	margin-top: 0%;
-	font-family: 'Montserrat', sans-serif;
-	line-height: 80%;
-	text-align: center;
 	position: fixed;
 	top: 0%;
 	width: 100%;
-	color: #F0F0F0;
+	min-width: 55em;
 	background-color: #2C2C2C;
 	border-radius: 7px;
 	z-index: 1;
 }
 
-#header hr {
-	margin-bottom: 0%;
+#header-text {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 80%; 
+	color: #F0F0F0;
+	text-align: center;
 }
+
+#header-text h1 {
+	font-size: 3em;
+	line-height: 25%
+}
+
+#profile {
+	position: absolute;
+	float: left;
+	padding: 5px;
+	margin-left: 30px;
+}
+
+#profile img {
+	width: 120px;
+	border-radius: 50%;
+}
+/* End header styling */
+/*Begin content styling */
 
 .content {
 	width: 750px;
 	font-family: 'Montserrat', sans-serif;
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: .5em;
-	margin: 113px auto 0px;
+	padding-top: .33em;
+	margin: 132px auto 0px;
 	background-color: #F0F0F0;
 	border-radius: 7px;
 }
-
-
 
 #personal-statement {
 	text-align: center;
@@ -50,7 +68,9 @@ body {
 	float: right;
 }
 
+/* Looking up image */
 #floor img {
+	width: 100%;
 	border: 2px;
 	border-style: solid;
 	border-color: #474747;
