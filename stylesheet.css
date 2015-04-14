@@ -1,31 +1,68 @@
 body {
 	margin: 0%;
-	background-color: #F0F0F0;
+	background-color: #B6C3CF;
 }
 
+/* Header styling */
 #header {
 	margin-top: 0%;
-	font-family: 'Montserrat', sans-serif;
-	line-height: 80%;
-	text-align: center;
 	position: fixed;
 	top: 0%;
 	width: 100%;
-	background-color: #F0F0F0;
-	z-index: 2;
+<<<<<<< HEAD:stylesheet.css
+	min-width: 55em;
+	background-color: #2C2C2C;
+	border-radius: 7px;
+	z-index: 1;
 }
 
-#header hr {
-	margin-bottom: 0%;
+#header-text {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 80%; 
+	color: #F0F0F0;
+	text-align: center;
+=======
+	color: #F0F0F0;
+	background-color: #2C2C2C;
+	border-radius: 7px;
+	z-index: 1;
+>>>>>>> origin/gh-pages:Stylesheet.css
 }
+
+#header-text h1 {
+	font-size: 3em;
+	line-height: 25%
+}
+
+#profile {
+	position: absolute;
+	float: left;
+	padding: 5px;
+	margin-left: 30px;
+}
+
+#profile img {
+	width: 120px;
+	border-radius: 50%;
+}
+/* End header styling */
+/*Begin content styling */
 
 .content {
 	width: 750px;
 	font-family: 'Montserrat', sans-serif;
-	margin: 128px auto 0;
+	padding-left: 1em;
+	padding-right: 1em;
+<<<<<<< HEAD:stylesheet.css
+	padding-top: .33em;
+	margin: 132px auto 0px;
+=======
+	padding-top: .5em;
+	margin: 113px auto 0px;
+>>>>>>> origin/gh-pages:Stylesheet.css
+	background-color: #F0F0F0;
+	border-radius: 7px;
 }
-
-
 
 #personal-statement {
 	text-align: center;
@@ -43,11 +80,14 @@ body {
 	float: right;
 }
 
+/* Looking up image */
 #floor img {
-	border-top: 1px;
-	border-left: 0px;
-	border-right: 0px;
-	border-bottom: 0px;
+<<<<<<< HEAD:stylesheet.css
+	width: 100%;
+=======
+>>>>>>> origin/gh-pages:Stylesheet.css
+	border: 2px;
 	border-style: solid;
 	border-color: #474747;
+	border-radius: 7px;
 }
