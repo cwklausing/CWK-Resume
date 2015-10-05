@@ -5,7 +5,7 @@
   <title>CWKlausing Resume</title>
   <meta name=“author” content="Connor Klausing" />
   <meta name="keywords" content="cwkwebdesign, self-taught, self-starter, persistent, imaginative, original, HTML, CSS" />
-  <meta name="description" content="A resume for my first Prime Academy challenge.  Hopefully the first of many more!  Thanks for viewing." />
+  <meta name="description" content="Updated Resume." />
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 </head>
@@ -13,25 +13,25 @@
 <body>
 
 <!-- Fixed top bar -->
-  <div id="header">
-    <div id="profile">
+  <header>
+    <figure>
       <img src="images/Profile.jpg" />
-    </div>
-    <div id="header-text">
+    </figure>
+    <section>
       <h1>Connor W Klausing</h1>
       <p>567 Asbury St, St. Paul, MN 55104</p>
       <p>(651) 357-6785 - cwklausing@gmail.com</p>
-    </div>
-  </div>
+    </section>
+  </header>
  
  <!-- Body of the resume -->
-  <div class="content">
-    <div id="personal-statement">
-      <p><strong>An aspiring, self-taught, but admittedly unseasoned web developer looks to up his game</strong></p>
-      <hr>
-    </div>
+  <main>
+    <!-- Personal statement -->
+    <p><strong>An aspiring, self-taught, but admittedly unseasoned web developer looks to up his game</strong></p>
+    <hr>
     
-    <div id="education">
+    <!--Education -->
+    <section>
       <h3>EDUCATION</h3>
         <p>Bachelor of Arts</p>
         <div class="date">May 2014</div>
@@ -40,9 +40,10 @@
         <p>Major: Political Science</p>        
         <p>Study Abroad: St. Xavier’s University, Kolkata, India</p>
         <hr>
-    </div>
-        
-    <div class="awards">
+    </section>
+    
+    <!--Awards -->  
+    <section>
       <h3>AWARDS & HONORS</h3>
       <div class="date">2014</div>
       <p>Phi Beta Kappa</p>
@@ -54,19 +55,22 @@
         <li>Served the common good through leadership, community engagement, collective learning, and professional development.</li>
       </ul>
       <hr>
-    </div>
+    </section>
 
-    <div class="compskills">
+    <!--Computer Skills -->
+    <section>
       <h3>COMPUTER SKILLS</h3>
       <ul>
         <li>Proficient in Microsoft Office and Adobe Photoshop, competent in basic HTML5 and CSS, amateur in Javascript.</li>
       </ul>
       <hr>
-    </div>
+    </section>
 
-    <div class="experience">
+    <!-- Experience -->
+    <section>
       <h3>EXPERIENCE</h3>
-      <div id="roundriver">
+      <!-- Round River -->
+      <section>
         <div class="date">May 2014 - October 2014</div>
         <p><strong>Farm Intern</strong></p>        
         <p><i>Round River Farm, Finland MN</i></p>
@@ -74,9 +78,10 @@
           <li>Handling the preparation, growth, and distribution of produce for a 50 member CSA may not have taught me much about computers, but I definitely learned how to push myself to (and beyond) what I thought myself capable of.</li>
         </ul>
         <br>
-      </div>
+      </section>
 
-      <div class="fcg">
+      <!--Full Circle Greenhouse-->
+      <section>
         <div class="date">August 2011 - May 2014</div>
         <p><strong>Co-Founder, Volunteer Coordinator</strong></p>        
         <p><i>Full Circle Greenhouse, College of St. Benedict, St. Joseph, MN</i></p>
@@ -86,9 +91,10 @@
           <li>Researched, fundraised for, and helped construct a student-run, passive solar winter greenhouse.</li>
         </ul>
         <br>
-      </div>
-          
-      <div id="wfp">
+      </section>
+        
+      <!--Witness for Peace-->  
+      <section>
         <div class="date">July 2013 - August 2013</div>
         <p><strong>Intern</strong></p>        
         <p><i>Witness for Peace, Minneapolis MN</i></p>
@@ -97,9 +103,10 @@
           <li>Coordinated grassroots initiatives by recruiting for international delegations, organizing delegate gatherings, and lobbying local and national political representatives.</li>
         </ul>
         <br>
-      </div>
+      </section>
 
-      <div id="ased">
+      <!--ASED-->
+      <section>
         <div class="date">January 2013 - May 2013</div>
         <p><strong>Intern</strong></p>
         <p><i>The Association for Social and Environmental Development, Kolkata, India</i></p>
@@ -108,9 +115,10 @@
           <li>Delivered solar lamps to children in the Sundarbans without access to electricity.</li>
         </ul>
         <br>
-      </div>
+      </section>
 
-      <div id="icsw">
+      <!--ICSW-->
+      <section>
         <div class="date">May 2012 - September 2012</div>
         <p><strong>Intercultural Center Student Worker</strong></p>        
         <p><i>College of St. Benedict, St. Joseph, MN</i></p>
@@ -119,15 +127,28 @@
           <li>Engaged students and community members through social media outreach.</li>
         </ul>
         <br>
-      </div>
-    </div>
-  </div>
+      </section>
+    </section>
+  </main>
 
 <!-- End body of resume -->
+  <section id="Contact-me">
+    <h3>CONTACT ME</h3>
+    <p>If you'd like to get in contact, please leave your email and a short message and I'll get back to you as soon as I can.</p>
+    <form>
+        <label for="contact-connor"><label>
+        <textarea id="contact-connor" placeholder="Interest in contacting Connor..."></textarea>
+        <label for="email"></label>
+        <input type="email" placeholder="Email..." id="email"></input>
+        <label for="submit"></label>
+        <input type="submit"></input>     
+    </form>
+  </section>
+
 <!-- Looking up image -->
 
-  <div id="floor">
+  <footer>
     <img src="images/thingsarelookingup.jpg" alt="Things are looking up">
-  </div>  
+  </footer>  
 </body>
 </html>
