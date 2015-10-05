@@ -50,6 +50,7 @@ main {
 	background-color: #F0F0F0;
 	border-radius: 7px;
 	line-height: 0.5em;
+	border: 2px solid black;
 }
 
 main li {
@@ -68,6 +69,7 @@ main li {
 	background-color: #F0F0F0;
 	border-radius: 7px;
 	line-height: 1.33em;
+	border: 1px solid black;
 }
 
 form {
